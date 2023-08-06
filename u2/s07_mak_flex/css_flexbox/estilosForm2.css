@@ -1,0 +1,23 @@
+.contenedor1{
+    background-color: rgb(29, 44, 248);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor1 div{background-color: rgba(218, 133, 7, 0.233); margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor2{
+    background-color: rgb(114, 5, 56);
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor2 div{background-color: rgb(44, 74, 173); margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor3{
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedor3 div{background-color: lightgreen; margin: 10px 5px; padding: 5px; width: 50px;}

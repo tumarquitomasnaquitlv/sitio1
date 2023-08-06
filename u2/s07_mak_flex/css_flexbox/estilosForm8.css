@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;}
+body {font-family: Broadway; margin: 20; padding: 20;}
+
+header {padding: 100px; text-align: center; background-color: blue;}
+
+nav {display: flex; flex-direction: row; background-color: dimgrey;}
+
+nav a { padding: 30px 30px; text-transform: none; color: white;}
+
+.row {display: flex; flex-wrap: wrap;}
+
+aside {flex: 30px; padding: 20px; background-color: yellow;}
+
+section {flex: 70%; padding: 20px; background-color: yellowgreen;}
+
+footer {padding: 20px; text-align: center; background-color: violet;}
+
+@media screen and (max-width: 700px){
+    nav, .row{
+        flex-direction: column;
+    }
+} 
+@media screen and (max-width: 900px){
+    header, .footer{
+        flex-direction: column-reverse;
+        background-color: rgb(32, 209, 9);
+        
+    }
+} 
